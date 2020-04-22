@@ -1,0 +1,38 @@
+marquee
+{
+	color: green
+}
+h1
+{
+	color:rgb(12,34.56);
+	border:5px solid red;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 50px;
+}
+
+.p1
+{
+	color:rgb(67,34,56);
+	text-align: left;
+}
+.p2
+{
+	color:rgb(12,67,56);
+	text-align: left;
+}
+.container
+{
+   display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  transition: all 2s;
+}
+img:hover
+{
+	transform:scale(1.1);
+}
+.button
+{
+    align-content: center;
+      }
