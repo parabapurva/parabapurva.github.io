@@ -1,0 +1,134 @@
+body
+{
+	background-color: #e6e600;
+	padding: 20px;
+	margin :200spx;
+}
+header
+{    
+   background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg')
+
+	color :	 #f2f2f2;
+	text-align: center;
+	
+}
+.clm /* first row */
+{
+	background-color:  #f9f2ec;
+	border-radius:20px 20px 0px 0px;
+   border-bottom-style:  solid;
+}
+
+table,th,td
+{   
+	color:#664d00;
+	border-size:2px;
+	border-style: solid black;
+	text-align: center;
+    border-color: black;
+	padding: 20px;
+	margin:30px;
+    opacity: 0.6;   /*opacity*/	
+}
+
+.firstclm  /* left align first columns */
+
+{ position: absolute;
+	float: left;
+	padding: 4px;
+	margin-left: 4px;
+
+}
+span{
+
+	visibility: hidden;
+}
+td:active>span
+{
+	visibility: visible;
+}
+td:hover>span
+{
+	visibility: visible;
+}
+span .pi  /* special property? */
+{
+	visibility: hidden;
+}
+td:hover>span .pi
+{
+	visibility: visible;
+}
+.special  /*last coloumn */ 
+{
+	
+	border-radius: 0px 0px 50px 50px; 
+
+		padding: 10px;
+
+
+}
+tr:nth-child(even){
+	background-color:#f2e6ff;
+}
+tr:nth-child(odd)
+{
+	background-color:  #bf80ff;
+}
+td{
+	font-size: 20px;
+	font-style: Times New Roman;
+}
+img
+{
+  border-style: rigid;
+  border-color: red;
+  box-sizing: border-box;
+  height: 10hv;
+  display: inline;
+}
+style
+{
+	 background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+.secondclass{
+	background-color: white;
+}
+header,nav
+{
+	
+    font-style: Times New Roman;
+	
+    font-weight: bold;
+	
+    width:1500px;
+	margin: 20auto;
+	margin-top: 20px;
+
+
+}
+a:hover{
+    background-color:#f2f2f2 ;
+    color:black;
+}
+a:focus
+{ background-color: #f2f2f2;
+    color:black;
+}
+a:active
+{
+	background-color: #f2f2f2;
+    color:black;
+ }
+ a{
+    display: inline-block;
+    font-weight: bold;
+    
+	padding :10px;
+    width:200px;
+	margin: 10px ;
+	margin-top:20px;
+	text-decoration: none ;
+    }
